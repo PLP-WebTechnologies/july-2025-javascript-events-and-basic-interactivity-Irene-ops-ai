@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Let's Learn Interactive Web Page with JavaScript</h1>
+
+  <!-- Part 1: Event Handling Example -->
+  <section>
+    <h2>🎉 Part 1: Event Handling</h2>
+    <button id="messageBtn">Click Me!</button>
+    <p id="messageOutput"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>🎮 Part 2: Interactive Features</h2>
+    
+    <!-- Light/Dark Mode Toggle -->
+    <button id="toggleTheme">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="count">0</span>
+      <button id="increase">+</button>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>📋 Part 3: Form Validation</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name"><span class="error" id="nameError"></span><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email"><span class="error" id="emailError"></span><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password"><span class="error" id="passwordError"></span><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
